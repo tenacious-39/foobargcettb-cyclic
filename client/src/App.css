@@ -1,0 +1,174 @@
+/* Contact Us Page CSS */
+.contact-form {
+    background-color: #e8ffff;
+}
+
+.contact-avatar-a {
+    color: rgba(0, 0, 0, 0.54);
+    text-decoration: none;
+}
+
+@keyframes slideInUp {
+    from {
+        transform: translate3d(0, 100%, 0);
+        visibility: visible;
+    }
+
+    to {
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.slideInUp {
+    z-index: 100;
+    animation-name: slideInUp;
+}
+
+/* Dashboard page css */
+.dashboard-container {
+    background-color: #e8ffff;
+}
+
+/* Footer*/
+.footer-container {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    background-color: #1a2f2f;
+    color: white;
+}
+
+.footer-container a {
+    color: white;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+.footer-container a:hover {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+.footer-container h4 {
+    font-weight: lighter;
+    font-size: medium;
+}
+
+/* Resource page css  */
+.section-background {
+    background: #2C3E50;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C3E50, #4CA1AF);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C3E50, #4CA1AF);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.white-font {
+    color: whitesmoke;
+}
+
+.resource-card {
+    transition: .6s ease;
+}
+
+.resource-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+}
+
+.resource-card-a {
+    color: rgba(54, 45, 45, 0.925);
+    text-decoration: none;
+    /* font-weight: lighter; */
+}
+
+.resource-card-a:hover {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+.resource-flex-item {
+    flex: auto;
+    margin: 5px;
+}
+
+/* .resource-background-image {
+    background: url("components/images/roadmap.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+} */
+
+.video-gallery-container {
+    margin-top: 45px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1rem;
+    padding: 0.5rem 1rem;
+    align-items: flex-start;
+    background-color: #FEFFED;
+}
+
+.featured-video {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    height: 100%;
+}
+
+.featured-video a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+/* .col-lg-3 {
+    height: 31.25rem;
+    overflow-y: scroll;
+    border: 0.1px solid red;
+  } */
+
+.video {
+    display: flex;
+    gap: 0.3rem;
+    border: 1px solid blueviolet;
+    /* width: 100%; */
+    transition: .6s ease;
+}
+
+.video:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+}
+
+.video .thumbnail {
+    height: 70px;
+    width: 110px;
+    padding: 0.3rem;
+    padding-top: auto;
+    padding-bottom: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-top: auto;
+    border-bottom: auto;
+    cursor: pointer;
+}
+
+.video .title {
+    padding: 0.3rem;
+    cursor: pointer;
+    font-size: medium;
+}
+
+.video .title h3 {
+    font-size: medium;
+}
+
+.video .title a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+
+.step4-yt-img {
+    height: 8rem;
+    width: 8rem;
+    border-radius: 100%;
+}

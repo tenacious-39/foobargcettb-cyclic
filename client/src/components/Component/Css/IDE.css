@@ -1,0 +1,115 @@
+.AboutUsContainer{
+    max-width: 100vw;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+  
+}
+/* .heading{
+    position: relative;
+    height: fit-content;
+    margin: auto;
+    width: 100vw;
+/* }  */
+.AboutUsContainer h1{
+text-align: center;
+font-size: 45px;
+font-weight:100;
+width: fit-content;
+margin: auto;
+}
+/* sliding image */
+.Swiper {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+    top: 20px;
+}
+.Swiper img {
+   width: 500px;
+    height: 300px;
+}
+
+.AboutPageText {
+    position: relative;
+    /* max-width: 400px; */
+    max-width: 600px;
+    height: auto;
+    /* overflow: scroll; */
+    margin:30px;
+}
+.AboutPageText p {
+    font-size: 20px;
+    text-align: justify;
+    padding: 7px;
+    text-indent:1.5cm;
+}
+.AboutPageImage {
+    right: 240px;
+    padding: 0;
+    width: 350px;
+    margin: auto;
+    margin-top: 30px;
+}
+.AboutPageImage img {
+    width: 350px;
+    height: auto;
+}
+@media screen and (max-width: 650px) {
+    .AboutUsContainer h1{   
+        font-size: 30px;
+        }
+        .AboutPageImage {
+            width: 250px;
+            height: auto;
+        }
+        .AboutPageImage img {
+            width: 250px;
+            height: auto;
+        }
+        .Swiper { 
+           max-width: 400px;
+            height:auto; 
+        }
+        .Swiper img {
+            max-width: 400px;
+            height: auto;
+        }
+}
+@media screen and (max-width: 650px) {
+    .Swiper { 
+        max-width: 300px;
+         height:auto; 
+     }
+     .Swiper img {
+         max-width: 300px;
+         height: auto;
+     } 
+}
+@media screen and (max-width: 360px) {
+    .Swiper { 
+        max-width: 250px;
+         height:auto; 
+     }
+     .Swiper img {
+         max-width: 250px;
+         height: auto;
+     } 
+}
+@media screen and (max-width: 360px) {
+    .AboutUsContainer h1{   
+        font-size: 25px;
+        }
+        .AboutPageImage {
+            width: 150px;
+            height: auto;
+        }
+        .AboutPageImage img {
+            width: 150px;
+            height: auto;
+        }
+}

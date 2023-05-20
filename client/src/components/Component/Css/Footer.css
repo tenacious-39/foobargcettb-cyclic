@@ -1,0 +1,63 @@
+.footer{
+    position: relative;
+    max-width: 100vw;
+    /* height: 200px; */
+    height: auto;
+    background-color: rgb(99, 99, 99);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.CollegeLogo img{
+    margin-top: 20px;
+    width: 70px;
+    height: auto;
+}
+.CollegeLink{
+    margin: 10px;
+}
+.CollegeLink a{
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    transition: 0s;
+}
+.CollegeLink a:hover {
+    color: #f4464f;
+}
+.FooterText{
+    color: rgb(170, 169, 169);
+    margin: auto;
+    text-align: center;   
+    padding: 10px;
+    font-size: 13px;
+}
+@media screen and (max-width: 850px) {
+    .footer{
+        padding-bottom: 0px;
+        padding-top: 10px;
+    }
+    .CollegeLink{
+        margin: 5px;
+    }
+    .CollegeLogo img{
+        margin-top: 1px;
+        width: 50px;
+        height: auto;
+    }
+}
+@media screen and (max-width: 580px) {
+    .CollegeLogo img{
+        margin-top: 5px;
+        width: 40px;
+        height: auto;
+    }
+    .FooterText{
+     font-size: 10px;   
+     padding: 5px; 
+    }
+}

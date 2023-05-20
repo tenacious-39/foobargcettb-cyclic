@@ -1,0 +1,19 @@
+.OnlineIDEContainer{
+    max-width: 100vw;
+    min-height: 100vh;
+}
+.heading{
+    position: relative;
+    height: fit-content;
+    margin: auto;
+    width: 100vw;
+}
+.OnlineIDEContainer h1{
+    text-align: center;
+    font-size: 45px;
+    font-weight:100;
+    }
+    @media screen and (max-width: 650px) {
+        .OnlineIDEContainer h1{   
+            font-size: 30px;
+            }}

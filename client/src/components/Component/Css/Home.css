@@ -1,0 +1,631 @@
+/* Front Page CSS */
+.FrontPage {
+  height: 630px;
+  background-color: rgb(251, 245, 237);
+  position: relative;
+}
+
+/* @media screen and (max-width: 730px) {
+  .FrontPage {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .FrontPage {
+    height: 400px;
+  }
+} */
+
+.BodyContent {
+  position: relative;
+  padding: 5px;
+}
+
+.BodyContent h1 {
+  font-size: 40px;
+  color: rgb(36, 105, 122);
+}
+
+.BodyContent h2 {
+  font-size: 20px;
+  color: rgb(136, 46, 46);
+}
+
+.text_slider {
+  text-align: center;
+  position: relative;
+  width: fit-content;
+  float: right;
+  right: 70px;
+  margin-left: 70px;
+}
+
+.text_slider h1 {
+  color: #bd1016;
+  font-size: 70px;
+  line-height: 56px;
+  font-weight: 300;
+  margin: 0 0 20px;
+}
+
+.StudyImage {
+  position: absolute;
+  width: 500px;
+  height: auto;
+  margin-left: 20px;
+  z-index: 1;
+}
+
+.StudyImage img {
+  width: 500px;
+  height: auto;
+  z-index: 99;
+}
+
+/* animated floating image */
+.floating_image {
+  position: absolute;
+  height: auto;
+  width: 200px;
+  right: 20px;
+  bottom: 60px;
+  z-index: 1;
+}
+
+.floating_image img {
+  width: 200px;
+  height: auto;
+  animation: float 2.5s ease-out infinite;
+}
+
+@keyframes float {
+  50% {
+    transform: translate(0px, 15px);
+  }
+}
+
+.ShapeDivider {
+  position: absolute;
+  /* top: 0px; */
+  bottom: 0;
+}
+
+.custom-shape-divider-bottom-1679638918 {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  max-width: 100vw;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1679638918 svg {
+  position: relative;
+  display: block;
+  width: calc(210% + 1.3px);
+  height: 212px;
+}
+
+.custom-shape-divider-bottom-1679638918 .shape-fill {
+  fill: #6f90ff;
+}
+
+@media screen and (max-width: 1100px) {
+  .StudyImage {
+    width: 450px;
+  }
+
+  .StudyImage img {
+    width: 450px;
+  }
+
+  .BodyContent h1 {
+    font-size: 35px;
+  }
+
+  .BodyContent h2 {
+    font-size: 15px;
+  }
+
+  .text_slider {
+    right: 20px;
+    margin-left: 00px;
+  }
+
+  .text_slider h1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .StudyImage {
+    width: 400px;
+  }
+
+  .StudyImage img {
+    width: 400px;
+  }
+
+  .BodyContent h1 {
+    font-size: 30px;
+  }
+
+  .BodyContent h2 {
+    font-size: 12px;
+  }
+
+  .text_slider h1 {
+    font-size: 35px;
+  }
+
+  .floating_image {
+    width: 200px;
+  }
+
+  .floating_image img {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .BodyContent h1 {
+    font-size: 20px;
+  }
+
+  .StudyImage {
+    width: 300px;
+  }
+
+  .StudyImage img {
+    width: 300px;
+  }
+
+  .floating_image {
+    width: 150px;
+  }
+
+  .floating_image img {
+    width: 150px;
+  }
+
+  .text_slider h1 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .text_slider h1 {
+    font-size: 20px;
+  }
+
+  .StudyImage {
+    width: 250px;
+  }
+
+  .StudyImage img {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .BodyContent h1 {
+    font-size: 17px;
+  }
+
+  .BodyContent h2 {
+    font-size: 10px;
+  }
+
+  .text_slider {
+    right: 10px;
+    margin-left: 20px;
+  }
+
+  .text_slider h1 {
+    font-size: 18px;
+  }
+
+  .StudyImage {
+    width: 200px;
+  }
+
+  .StudyImage img {
+    width: 200px;
+  }
+
+  .floating_image {
+    width: 100px;
+  }
+
+  .floating_image img {
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .BodyContent h1 {
+    text-align: center;
+  }
+
+  .BodyContent h2 {
+    text-align: center;
+  }
+
+  .text_slider {
+    left: 0;
+
+  }
+
+  .text_slider h1 {
+    font-size: 15px;
+  }
+
+  .StudyImage {
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 300px) {
+
+  .floating_image {
+    visibility: hidden;
+  }
+}
+
+/* All page heading */
+.heading h1 {
+  position: relative;
+  text-align: center;
+  font-size: 45px;
+  font-weight: 100;
+  min-width: 100vw;
+}
+
+@media screen and(max-width:700px) {
+  .heading h1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and(max-width:500px) {
+  .heading h1 {
+    font-size: 35px;
+  }
+}
+
+/* About Us Page CSS */
+
+.AboutUs {
+  max-width: 100vw;
+  min-height: 110vh;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+  background-color: rgb(179, 255, 233);
+}
+
+.Swiper {
+  position: relative;
+  width: 500px;
+  height: 300px;
+  margin: 20px;
+  top: 20px;
+}
+
+.Swiper img {
+  width: 500px;
+  height: 300px;
+}
+
+.AboutPageText {
+  position: relative;
+  max-width: 600px;
+  height: auto;
+  margin: 30px;
+}
+
+.AboutPageText p {
+  font-size: 20px;
+  text-align: justify;
+  padding: 7px;
+  text-indent: 1.5cm;
+}
+
+.AboutPageImage {
+  right: 240px;
+  padding: 0;
+  width: 350px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.AboutPageImage img {
+  width: 350px;
+  height: auto;
+}
+
+@media screen and (max-width: 650px) {
+  .AboutPageImage {
+    width: 250px;
+    height: auto;
+  }
+
+  .AboutPageImage img {
+    width: 250px;
+    height: auto;
+  }
+
+  .Swiper {
+    max-width: 400px;
+    height: auto;
+  }
+
+  .Swiper img {
+    max-width: 400px;
+    height: auto;
+  }
+
+  .AboutPageText p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Swiper {
+    max-width: 300px;
+    height: auto;
+  }
+
+  .Swiper img {
+    max-width: 300px;
+    height: auto;
+  }
+
+  .AboutPageText p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .Swiper {
+    max-width: 200px;
+    height: auto;
+  }
+
+  .Swiper img {
+    max-width: 200px;
+    height: auto;
+  }
+
+  .AboutPageImage {
+    width: 150px;
+    height: auto;
+  }
+
+  .AboutPageImage img {
+    width: 150px;
+    height: auto;
+  }
+
+  .AboutPageText p {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .Swiper {
+    width: 150px;
+    height: auto;
+  }
+
+  .Swiper img {
+    width: 150px;
+    height: auto;
+  }
+
+  .AboutPageImage {
+    width: 100px;
+    height: auto;
+  }
+
+  .AboutPageImage img {
+    width: 100px;
+    height: auto;
+  }
+
+  .AboutPageText p {
+    font-size: 8px;
+  }
+}
+
+/* Gallery Page CSS */
+.Gallery {
+  position: relative;
+  height: 100vh;
+  max-width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+
+/* Reach Us Page CSS */
+.ReachUs {
+  position: relative;
+  max-width: 100vw;
+  min-height: 110vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-flow: wrap;
+  background-color: rgb(184, 253, 255);
+}
+
+.CollegePhoto {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../Images/College1.jpg");
+  background-size: cover;
+  margin: 10px;
+}
+
+.CollegePhoto h3 {
+  color: white;
+  position: relative;
+  width: max-content;
+  text-align: center;
+  font-size: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.GoogleMapIcon {
+  width: 35px;
+  height: 55px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.GoogleMapIcon img {
+  width: 35px;
+  height: auto;
+  animation: FloatingMapIcon 2s ease-out infinite;
+}
+
+@keyframes FloatingMapIcon {
+  50% {
+    transform: translate(0px, 15px);
+  }
+}
+
+.Map {
+  width: 600px;
+  height: 400px;
+  position: relative;
+  margin: 10px;
+  background-color: antiquewhite;
+}
+
+.Map iframe {
+  width: 600px;
+  height: 400px;
+}
+
+@media screen and (max-width: 800px) {
+  .CollegePhoto {
+    width: 500px;
+    height: 300px;
+  }
+
+  .CollegePhoto h3 {
+    font-size: 15px;
+  }
+
+  .Map {
+    width: 500px;
+    height: 300px;
+  }
+
+  .Map iframe {
+    width: 500px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .CollegePhoto {
+    width: 400px;
+    height: 300px;
+  }
+
+  .CollegePhoto h3 {
+    font-size: 10px;
+  }
+
+  .Map {
+    width: 400px;
+    height: 300px;
+  }
+
+  .Map iframe {
+    width: 400px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .CollegePhoto {
+    width: 300px;
+    height: 200px;
+  }
+
+  .CollegePhoto h3 {
+    font-size: 8px;
+  }
+
+  .Map {
+    width: 300px;
+    height: 200px;
+  }
+
+  .Map iframe {
+    width: 300px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .CollegePhoto {
+    width: 250px;
+    height: 100px;
+  }
+
+  .CollegePhoto h3 {
+    font-size: 5px;
+  }
+
+  .GoogleMapIcon {
+    width: 15px;
+    height: 35px;
+  }
+
+  .GoogleMapIcon img {
+    width: 15px;
+    height: auto;
+  }
+
+  .Map {
+    width: 250px;
+    height: 100px;
+  }
+
+  .Map iframe {
+    width: 250px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 250px) {
+  .CollegePhoto {
+    width: 180px;
+    height: 100px;
+  }
+
+  .Map {
+    width: 180px;
+    height: 100px;
+  }
+
+  .Map iframe {
+    width: 180px;
+    height: 100px;
+  }
+}

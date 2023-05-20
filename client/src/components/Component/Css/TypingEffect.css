@@ -1,0 +1,55 @@
+
+.TypingEffect {
+  font-family: sans-serif;
+  font-weight:500;
+  font-size:50px;
+  text-align: center;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:50px;
+
+}
+.TypingEffect{
+  color: brown;
+}
+@media screen and (max-width: 1100px) {
+
+  .TypingEffect {
+    font-size: 45px;}
+}
+@media screen and (max-width: 850px) {
+
+  .TypingEffect {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 650px) {
+ 
+  .TypingEffect {
+    font-size: 30px;
+
+}}
+@media screen and (max-width: 540px) {
+  .text_slider {
+    float: right;
+    right: 50px;
+  }
+  .TypingEffect {
+    font-size: 25px;
+  }
+  
+}
+@media screen and (max-width: 470px) {
+  .TypingEffect {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .text_slider {
+    text-align: center;
+    float: none;
+    right: 0px;
+    margin: auto;
+  }
+}
