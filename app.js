@@ -129,6 +129,11 @@ app.post("/updateHandles", function (req, res) {
 app.get("/", function (req, res) {
     res.sendFile(path.join(__dirname, 'client/build/index.html'));
 });
-app.listen(PORT, function () {
-    console.log("Server started listening to port 3000");
+mongoose.connect(DB, { useNewUrlParser: true, useUnifiedTopology: true }).then(() => {
+    console.log("Connection Successfull");
+    app.listen(PORT, function () {
+        console.log("Server started listening to port 3000");
+    });
+}).catch((err) => {
+    console.log(err);
 });
