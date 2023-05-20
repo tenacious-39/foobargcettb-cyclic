@@ -95,10 +95,10 @@ function DashboardBodyRight({ user, setUser }) {
         handleLogout();
     }
     function handleLogIn() {
-        window.open("https://foobargcettb.cyclic.app/auth/google", "_self");
+        window.open("https://cyan-creepy-cougar.cyclic.app/auth/google", "_self");
     }
     function handleLogout() {
-        window.open("https://foobargcettb.cyclic.app/logout", "_self");
+        window.open("https://cyan-creepy-cougar.cyclic.app/logout", "_self");
         setUser(null);
     }
     //console.log(user);

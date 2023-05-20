@@ -42,7 +42,7 @@ function App() {
           Accept: "application/json",
           "Content-Type": "application/json",
           "Access-Control-Allow-Credentials": true,
-          "Access-Control-Allow-Origin": 'https://foobargcettb.cyclic.app',
+          "Access-Control-Allow-Origin": 'https://cyan-creepy-cougar.cyclic.app',
         },
       }).then(response => {
         if (response.status === 200) return response.json();
