@@ -469,7 +469,7 @@
   width: 600px;
   height: 400px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("./../Images/College1.jpg");
+    url("./College1.jpg");
   background-size: cover;
   margin: 10px;
 }

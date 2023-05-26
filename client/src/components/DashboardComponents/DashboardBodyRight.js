@@ -95,7 +95,7 @@ function DashboardBodyRight({ user, setUser }) {
         handleLogout();
     }
     function handleLogIn() {
-        window.open("https://cyan-creepy-cougar.cyclic.app/auth/google", "_self", "popup=yes");
+        window.open("https://cyan-creepy-cougar.cyclic.app/auth/google", "_self");
     }
     function handleLogout() {
         window.open("https://cyan-creepy-cougar.cyclic.app/logout", "_self");
