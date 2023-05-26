@@ -56,10 +56,10 @@ function Step8() {
                     </li>
                 </ul>
                 <div className="pt-1 ps-4 pe-4">
-                    <h4 className="white-font mt-2">Sheet to revise before interview:</h4>
+                    <h4 className="white-font mt-2">Placement Calendar and Aptitude question portal:</h4>
                     <div className="row">
                         <div className="col-lg-3 col-md-6">
-                            <a href="https://takeuforward.org/interviews/must-do-questions-for-dbms-cn-os-interviews-sde-core-sheet/"
+                            <a href="https://mcq-exam-portal.netlify.app/"
                                 target="_blank">
                                 <div className="card border-light shadow p-3 mb-5 bg-white rounded resource-card" >
                                     <img className="card-img-top"
